@@ -537,4 +537,7 @@
 <h1 appTestdirective>Highlight Me !</h1>
 <a routerLink="test">Go to Test</a><br>
 <app-test><span>Dynamic Ng Content</span></app-test>
+<app-test [childMessage]="parentMessage"></app-test>
+Message: {{ message }}
+    <app-test></app-test>
 <router-outlet></router-outlet>
